@@ -10,15 +10,34 @@ By leveraging sentiment analysis, text preprocessing and machine learning, we ai
 The primary objective of this analysis is to leverage Natural Language Processing (NLP) techniques to perform sentiment analysis on women’s e-commerce clothing reviews. This will help businesses extract valuable insights from customer feedback and enhance decision-making.
 
 **Refined Objectives:**  
-- **Sentiment Classification:**  
-  - Develop a robust NLP-based sentiment classifier that categorizes customer reviews into two sentiment classes (Positive, Negative).  
-  - Use “Review Text” as the primary feature and leverage “Recommended IND” as proxy labels to define sentiment.
-  - Target a performance benchmark of at least 80% accuracy and an F1-Score of 0.80 on the test set.
-- **Topic Modeling & Key Themes Identification:**  
-  - Apply topic modeling (e.g., Latent Dirichlet Allocation) to the review text to uncover prevalent themes such as product quality, customer service, pricing, and delivery experience.
-- **Actionable Insights & Stakeholder Communication:**  
-  - Generate comprehensive visualizations (e.g., word clouds, topic distributions) and interpret the results to provide actionable recommendations for product improvements and customer engagement.
+**Sentiment Classification:** Build a model to classify customer reviews as Positive or Negative, using review text as the main feature. The goal is to achieve at least 80% accuracy and an F1-score of 0.80.
 
-**Stakeholders & Business Value:**  
-- **Marketing, Product, and Customer Service Teams:**  
-  - Can use these insights to optimize product offerings, enhance customer satisfaction, and drive strategic improvements.
+**Topic Modeling:** Identify key themes in customer reviews (e.g., product quality, sizing, shipping experience) using techniques like Latent Dirichlet Allocation (LDA).
+
+**Actionable Insights:** Use visualizations (e.g., word clouds, sentiment trends) to provide recommendations for product improvements and customer engagement strategies.
+
+**Target Audience**
+This analysis is valuable for:
+- E-commerce Businesses – To understand customer sentiment and improve offerings.
+- Product Managers & Merchandisers – To make data-backed product decisions.
+- Marketing Teams – To craft targeted campaigns based on customer preferences.
+- Data Scientists & Analysts – To explore NLP techniques in a real-world business context.
+
+  **Success Metrics**
+  - Achieve at least 80% accuracy and an F1-score of 0.80 on the test set.
+  - Identify key factors like product quality, fit, pricing and customer service.
+  - Provide clear, actionable recommendations based on sentiment trends and topic distributions.
+
+**Data Understanding**
+The dataset used in this analysis consists of customer reviews for women’s clothing, sourced from [Kaggle](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews). It contains text-based feedback along with numerical ratings and other metadata.
+  **Key Features**
+  -Review Text – The primary textual feedback provided by customers.
+
+  -Rating – A numerical score (1-5) reflecting customer satisfaction.
+
+  -Recommended IND – A binary indicator of whether a customer recommends the product (1 = Yes, 0 = No).
+
+  -Positive Feedback Count – The number of customers who found a review helpful.
+
+  -Age – The age of the reviewer.
+  
