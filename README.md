@@ -10,11 +10,9 @@ By leveraging sentiment analysis, text preprocessing and machine learning, we ai
 The primary objective of this analysis is to leverage Natural Language Processing (NLP) techniques to perform sentiment analysis on women’s e-commerce clothing reviews. This will help businesses extract valuable insights from customer feedback and enhance decision-making.
 
 **Refined Objectives:**  
-**Sentiment Classification:** Build a model to classify customer reviews as Positive or Negative, using review text as the main feature. The goal is to achieve at least 80% accuracy and an F1-score of 0.80.
-
-**Topic Modeling:** Identify key themes in customer reviews (e.g., product quality, sizing, shipping experience) using techniques like Latent Dirichlet Allocation (LDA).
-
-**Actionable Insights:** Use visualizations (e.g., word clouds, sentiment trends) to provide recommendations for product improvements and customer engagement strategies.
+- Sentiment Classification: Build a model to classify customer reviews as Positive or Negative, using review text as the main feature. The goal is to achieve at least 80% accuracy and an F1-score of 0.80.
+- Topic Modeling: Identify key themes in customer reviews (e.g., product quality, sizing, shipping experience) using techniques like Latent Dirichlet Allocation (LDA).
+- Actionable Insights: Use visualizations (e.g., word clouds, sentiment trends) to provide recommendations for product improvements and customer engagement strategies.
 
 **Target Audience**
 This analysis is valuable for:
