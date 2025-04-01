@@ -30,37 +30,50 @@ This analysis is valuable for:
 
 # Data Understanding
 The dataset used in this analysis consists of customer reviews for women’s clothing, sourced from [Kaggle](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews). This dataset contains 23,486 rows and 10 features. It contains text-based feedback along with numerical ratings and other metadata.
+
   **Key Features**
   - Review Text: The primary textual feedback provided by customers.
   - Rating: A numerical score (1-5) reflecting customer satisfaction.
   - Recommended IND: A binary indicator of whether a customer recommends the product (1 = Yes, 0 = No).
   - Positive Feedback Count: The number of customers who found a review helpful.
   - Age: The age of the reviewer.
+    
   **Target Variable**
     - 
 # Data Preparation
 Before analysis, the dataset was prepared by handling missing values, duplicates, and necessary transformations:
+
 **Handling Missing Data:**
 -'Reviews','Division Name', 'Department Name' and 'Class Name' with missing text were removed, as they provide no value for sentiment analysis.
+
 **Dropping irrelevant columns**
 -'Clothing ID','Title','Unnamed: 0' were dropped as they are not essential for analysis. 
+
 **Removing Duplicates:**
 -Duplicate reviews were identified and dropped to ensure unbiased analysis.
+
 **Sentiment Labeling:**
-A new Sentiment column was created based on the Rating:
--Positive: Ratings 4 & 5
--Neutral: Rating 3
--Negative: Ratings 1 & 2
+A new Sentiment column was created based on the Recommended ID:
+-Positive: 1
+
+-Negative: 0
 
 # Data Preprocessing and Cleaning(Text Specific)
 To prepare the text for sentiment analysis, several preprocessing techniques were applied to ensure the text data was structured and optimized for feature extraction and model training:
--Text Cleaning: Removed URLs, HTML tags, special characters, extra spaces, and numbers to retain only meaningful words.
--Lowercasing: Standardized all text to lowercase for consistency.
--Stopword Removal: Eliminated common words (e.g., “the”, “and”) that do not contribute to sentiment.
--Normalization: Limited elongated words (e.g., “sooo” → “soo”) and allowed up to two consecutive repetitions.
--Tokenization: Split text into individual words (tokens) for further processing.
--Lemmatization: Reduced words to their base forms (e.g., “running” → “run”) to maintain word consistency.
--N-gram Generation: Created bigrams to capture context and relationships between words.
+
+**-Text Cleaning:** Removed URLs, HTML tags, special characters, extra spaces, and numbers to retain only meaningful words.
+
+**-Lowercasing:** Standardized all text to lowercase for consistency.
+
+**-Stopword Removal:** Eliminated common words (e.g., “the”, “and”) that do not contribute to sentiment.
+
+**-Normalization:** Limited elongated words (e.g., “sooo” → “soo”) and allowed up to two consecutive repetitions.
+
+**-Tokenization:** Split text into individual words (tokens) for further processing.
+
+**-Lemmatization:** Reduced words to their base forms (e.g., “running” → “run”) to maintain word consistency.
+
+**-N-gram Generation:** Created bigrams to capture context and relationships between words.
 
 # Feature Engineering and Representation
 
