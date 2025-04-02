@@ -1,7 +1,13 @@
-# NLP Analysis: Women’s Clothing E-Commerce Reviews
-# Project By: Group 5
-# Date: 02/04/2025
-# Data Science: Fulltime Remote
+# NLP ANALYSIS: Women’s Clothing E-Commerce Reviews
+# PROJECT BY: Group 5 Members
+1. Ian Bett
+2. Linet Patriciah
+3. Lionel Ajeliti
+4. Morgan Abukuse Amunga
+5. Sanayet Nelly Sankaine
+   
+# DATE: 02/04/2025
+# DS: Fulltime Remote
 
 # Overview
 In the fast-growing e-commerce industry, customer reviews play a crucial role in shaping brand perception, influencing purchases and identifying areas for improvement. This project focuses on analyzing women’s clothing reviews to extract meaningful insights using Natural Language Processing (NLP) and data science techniques.
