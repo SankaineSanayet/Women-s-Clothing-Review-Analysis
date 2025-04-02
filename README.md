@@ -230,4 +230,4 @@ Key Takeaways:
 
 
 # For more Information:
-Review the full analysis on Jupyter Notebook or the Presentation 
+Review the full analysis on [Jupyter Notebook](https://github.com/SankaineSanayet/Women-s-Clothing-Review-Analysis/blob/main/Notebook.ipynb) or the Presentation 
