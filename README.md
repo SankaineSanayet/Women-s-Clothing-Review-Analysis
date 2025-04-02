@@ -168,7 +168,7 @@ Key Takeaways:
 - Positive words (love, beautiful, unique) were present but not strong enough to shift the prediction.
  ![image](Images/I.PNG)
 
-## Conclusion
+# Conclusion
 
 1. **Objective Achievement:**  
    We built a predictive model using over 22,000 cleaned reviews.  
@@ -188,7 +188,7 @@ Key Takeaways:
       Negative reviews frequently highlight concerns with product fit and fabric quality.  
       These insights indicate that, while sentiment is largely positive, targeted improvements could further enhance customer experience.
 
-## Business Recommendations
+# Business Recommendations
 
 1. **Focus on Fit and Sizing:**  
    - **Insight:** Customers were frequently mentioning words like *size*, *true*, *fit*, *flattering*, indicating that proper fit is a major concern.
@@ -215,18 +215,13 @@ Key Takeaways:
      - Customizing email campaigns and advertisements based on customers' past interactions will likely increase engagement and sales conversions.
 
 
-# Recommendations
-**Model Recommendations**
+
+# Model Recommendations
 - Enhance the Feature Set: Integrate additional structured features such as product category and review date to capture trends over time and differences across product lines.
 - Explore Advanced Modeling Techniques: Experiment with transformer-based models (e.g., BERT) or deep learning approaches (e.g., LSTM) to capture subtle language nuances like sarcasm, tone, or ambiguity.
 - Consider Data Augmentation: Use data augmentation techniques (e.g., back-translation, synonym replacement) to artificially expand the dataset, especially for underrepresented classes or categories.
 - Develop a Continuous Learning Pipeline: Build a production pipeline for continuous model updates as new data arrives.
 
-**Business Recommendations**
-- Focus on Fit and Sizing
-- Enhance Fabric Quality and Comfort
-- Maintain Consistent Product Quality
-- Personalize Marketing Strategies
 
 # For more Information:
-Review the full analysis on: 
+Review the full analysis on Jupyter Notebook or the Presentation 
